@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  WeekOneAssesment
 //
 //  Created by Irwin Gonzales on 1/9/15.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property NSInteger *result;
+@interface WebViewController : UIViewController
 
 @end
-

@@ -14,6 +14,7 @@
 		57495B181A6043B40018B8FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57495B171A6043B40018B8FA /* Images.xcassets */; };
 		57495B1B1A6043B40018B8FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57495B191A6043B40018B8FA /* LaunchScreen.xib */; };
 		57495B271A6043B40018B8FA /* WeekOneAssesmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57495B261A6043B40018B8FA /* WeekOneAssesmentTests.m */; };
+		57495B321A604DFF0018B8FA /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57495B311A604DFF0018B8FA /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		57495B201A6043B40018B8FA /* WeekOneAssesmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeekOneAssesmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57495B251A6043B40018B8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57495B261A6043B40018B8FA /* WeekOneAssesmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeekOneAssesmentTests.m; sourceTree = "<group>"; };
+		57495B301A604DFF0018B8FA /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		57495B311A604DFF0018B8FA /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				57495B0F1A6043B40018B8FA /* AppDelegate.m */,
 				57495B111A6043B40018B8FA /* ViewController.h */,
 				57495B121A6043B40018B8FA /* ViewController.m */,
+				57495B301A604DFF0018B8FA /* WebViewController.h */,
+				57495B311A604DFF0018B8FA /* WebViewController.m */,
 				57495B141A6043B40018B8FA /* Main.storyboard */,
 				57495B171A6043B40018B8FA /* Images.xcassets */,
 				57495B191A6043B40018B8FA /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				57495B131A6043B40018B8FA /* ViewController.m in Sources */,
 				57495B101A6043B40018B8FA /* AppDelegate.m in Sources */,
 				57495B0D1A6043B40018B8FA /* main.m in Sources */,
+				57495B321A604DFF0018B8FA /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
